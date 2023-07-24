@@ -103,7 +103,7 @@ public class Main {
                     break;
                 }
             }
-        };
+        }
 
 
     }
@@ -116,7 +116,7 @@ public class Main {
             }
         }
         return posicionesLetra;
-    };
+    }
 
     public static String[] seleccionarPalabra(String dificultad) {
         String[][] palabras;
@@ -157,7 +157,7 @@ public class Main {
                 break;
         }
         return palabras[random.nextInt(palabras.length)];
-    };
+    }
 
     public static String seleccionarDificultad(){
         Object[] dificultades = {"Equilibrado", "Desafiante", "Imposible"};
